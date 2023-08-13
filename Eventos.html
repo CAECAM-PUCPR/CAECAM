@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang ="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatilbe" content="IE=edge">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>CAECAM</title>
+    <link rel="stylesheet" href= "styleEventos.css">
+</head>
+
+<body>
+    <nav class = "menu-lateral">
+        <a class = "logo" href="index.html"> <img src="Logo.png" alt="logo"> </a>
+
+        <div class="expande">
+            <div class="mobile-menu" id="exp">
+                <div class = "line1"></div>
+                <div class = "line2"></div>
+                <div class = "line3"></div>
+            </div>
+
+            <ul>
+                <li class ="item-menu">
+                    <a href="index.html">
+                        <span class="icone"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+                                <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z"/>
+                            </svg>
+                        </span>
+                        <span class ="texto"> Inicio </span>
+                    </a>
+                </li>
+
+                <li class ="item-menu ativo">
+                    <a href="Eventos.html">
+                        <span class="icone">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-calendar-week" viewBox="0 0 16 16">
+                                <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+                                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                              </svg>
+                        </span>
+                        <span class ="texto"> Eventos </span>
+                    </a>
+                </li>
+
+                <li class ="item-menu">
+                    <a href="Sobre.html">
+                        <span class="icone">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-building" viewBox="0 0 16 16">
+                                <path d="M4 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z"/>
+                                <path d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V1Zm11 0H3v14h3v-2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V15h3V1Z"/>
+                              </svg>
+                        </span>
+                        <span class ="texto"> Sobre </span>
+                    </a>
+                </li>
+
+                <li class ="item-menu">
+                    <a href="contato.html">
+                        <span class="icone">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                              </svg>
+                        </span>
+                        <span class ="texto"> Contato </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main>
+        <div class="container">
+           <!--<div class="box">
+                <div class="imagem_top">
+                    <img src ="">
+                </div>
+                <h3>Visita Técnica</h3>
+                <p> Visita técnica realizada na indústria XXXX, no setor XXXX para conhecimento a industria possui mais 70 anos de tradição no pais, além de possuir alta tecnologia em seus produtos.
+                </p>
+                <div class="data">
+                    <h4>Data</h4>
+                    <p> XX de XXXX de XX</p>
+                </div>
+                <div class="horario">
+                    <h4>Horario</h4>
+                    <p>16:00h</p>
+                </div>
+                <div class="botao">
+                    <a href="#"target="_blank" rel="noopener noreferrer">
+                        <button type ="button">Inscreva-se</button>
+                    </a>
+                </div>
+            </div>--> 
+        </div>
+        
+    </main>
+    <footer>
+        <div class ="footercontent">
+             <div class="foootercontacts">
+                 <img src="Logo.png" alt="logo"> </a>
+                 <p>Centro Acadêmico de Engenharia de Controle & Automação e Engenharia Mecatrônica desde 1998.</p>
+ 
+                 <div class="footersocial">
+                     <a href="https://instagram.com/caecampucpr?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank" rel="noopener noreferrer" class="footerlink" id=" instagram">
+                         <img src="instagram-logo.svg"></img>
+                     </a>
+                     <a href="https://github.com/CAECAM-PUCPR" target="_blank" rel = "noopener noreferrer" class = "footerlink" id = "github">
+                         <img src = "github-mark-white.svg">
+                     </a>
+                 </div>
+             </div>
+             <ul class="footerlist">
+                 <li><h3>Informações</h3></li>
+                 <li> 
+                 <a class ="footerlink" href ="https://linktr.ee/dcepucpr?fbclid=PAAaZE4fcACtESn83bJTBopqWaChr2ISe16D5mAbvje-72xB3k_GcMVB5CNW4_aem_AaDeMjYChEBJvUhwb4KDabB-dUeWkj9CjXM53VR7HrX93LP5iyYruWv59Cl8cnW2Lyg" target="_blank" rel="noopener noreferrer"> Diretório Central dos Estudantes</a>
+                 </li>
+                 <li> 
+                     <a class ="footerlink" href ="https://drive.google.com/drive/folders/1UOvGzsGhLxJr9bjLSYzTAlgEwMJhxh3q?usp=sharing" target="_blank" rel="noopener noreferrer"> Documentos de Reuniões </a>
+                 </li>
+                 
+             </ul>
+             <ul class="footerlist">
+                 <li><h3>Processos Seletivos</h3></li>
+                 <li>
+                     <a class = "footerlink" href = "https://linktr.ee/PUCPRCarreiras" target="_blank" rel="noopener noreferrer">PUC Carreiras</a>
+                 </li>
+                 <li> 
+                     <a class = "footerlink" href ="https://docs.google.com/forms/d/e/1FAIpQLScPCtJUXrum7j5vktNTlsBe017XZI_5QnI44ZRtnA3h5iVelg/viewform?fbclid=PAAaZuNA3Dvt9Id59KrdULH6m5NQayB3vVoqb6SqoyO8l4di5y4KEPo97-yYc_aem_AaC7P9nvH-1mVlNfsmvIm7shgpLlO7pnHZLd549lDCEoSbmWNPvZIXwwssE00vQaLE8" target="_blank" rel="noopener noreferrer">Equipe de Robótica Móvel PUCPR</a>
+                 </li>
+             </ul>
+             <div class="footer-parceiros">
+ 
+             </div>
+        </div>
+        <div class="Copyrigth">
+         &#169
+         2023 All rights reserved
+        </div>
+     </footer>
+
+    <script src="mobile-navbar.js"></script>
+</body>
+</html>

@@ -57,3 +57,51 @@ nav.menu-lateral{
       transform: translateY(-20px);
     }
   }
+
+ @media screen and (max-width:910px){
+    body{
+        height: 200vh;
+    }
+     
+    .container{
+        width:50%;
+        flex-direction: column;
+    }
+     
+    .box img{
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .box h1{
+        font-size: 30px;
+    }
+
+    .box h2{
+        font-size: 30px;
+    }
+ }
+
+ @media screen and (max-width:460px){
+    body{
+        height: 250vh;
+    }
+     
+    .container{
+        width:50%;
+        flex-direction: column;
+    }
+     
+    .box img{
+        display: none;
+    }
+
+    .box h1{
+        font-size: 15px;  
+    }
+
+    .box h2{
+        font-size: 10px;
+    }
+ }
+

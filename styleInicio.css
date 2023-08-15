@@ -58,7 +58,32 @@ nav.menu-lateral{
     }
   }
 
- @media screen and (max-width:910px){
+@media screen and (max-width:910px){
+    body{
+        height: 200vh;
+    }
+    
+    .container{
+        width:50%;
+        flex-direction: column;
+    }
+    
+    .box img{
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .box h1{
+        font-size: 20px;
+    }
+
+    .box h2{
+        font-size: 20px;
+    }
+ }
+
+ 
+ @media screen and (max-width:594px){
     body{
         height: 200vh;
     }
@@ -66,6 +91,7 @@ nav.menu-lateral{
     .container{
         width:50%;
         flex-direction: column;
+    
     }
      
     .box img{
@@ -74,17 +100,17 @@ nav.menu-lateral{
     }
 
     .box h1{
-        font-size: 30px;
+        font-size: 15px;
     }
 
     .box h2{
-        font-size: 30px;
+        font-size: 15px;
     }
  }
 
  @media screen and (max-width:460px){
     body{
-        height: 250vh;
+        height: 1500vh;
     }
      
     .container{
@@ -93,15 +119,14 @@ nav.menu-lateral{
     }
      
     .box img{
-        display: none;
+        width:10rem;
     }
 
     .box h1{
-        font-size: 15px;  
+        font-size: 15px;   
     }
 
     .box h2{
-        font-size: 10px;
+        font-size: 20px;
     }
  }
-

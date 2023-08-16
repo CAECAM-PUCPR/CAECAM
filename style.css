@@ -119,7 +119,7 @@ a{
     letter-spacing:4px;
     width:80px;
     height: 80px;
-    transition: ease .7s;
+    transition: ease .5s;
 }
 
 .mobile-menu div{

@@ -129,7 +129,8 @@ a{
     margin:6px;
     transition: 0.3s;
     cursor: pointer;
-    padding-left: 10px;
+    padding-left: 30px;
+    margin-left: 15px;
 }
 
 

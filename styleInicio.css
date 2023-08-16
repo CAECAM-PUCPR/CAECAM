@@ -62,7 +62,7 @@ nav.menu-lateral{
     body{
         height: 200vh;
     }
-    
+
     .container{
         width:50%;
         flex-direction: column;
@@ -85,7 +85,7 @@ nav.menu-lateral{
  
  @media screen and (max-width:594px){
     body{
-        height: 200vh;
+        height: 150vh;
     }
      
     .container{
@@ -93,10 +93,9 @@ nav.menu-lateral{
         flex-direction: column;
     
     }
-     
     .box img{
-        width: 20rem;
-        height: 20rem;
+        width: 15rem;
+        height: 15rem;
     }
 
     .box h1{
@@ -108,9 +107,9 @@ nav.menu-lateral{
     }
  }
 
- @media screen and (max-width:460px){
+ @media screen and (max-width:490px){
     body{
-        height: 1500vh;
+        height: 150vh;
     }
      
     .container{
@@ -119,8 +118,18 @@ nav.menu-lateral{
     }
      
     .box img{
-        width:10rem;
+        width:7.5rem;
+        height: 7.5rem;
     }
+
+    .box h1{
+        font-size: 12px;  
+    }
+
+    .box h2{
+        font-size: 15px;
+    }
+ }
 
     .box h1{
         font-size: 15px;   

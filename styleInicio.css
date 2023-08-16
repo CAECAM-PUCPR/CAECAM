@@ -107,35 +107,41 @@ nav.menu-lateral{
     }
  }
 
- @media screen and (max-width:490px){
+@media screen and (max-width:490px){
     body{
         height: 150vh;
     }
-     
+    
     .container{
         width:50%;
         flex-direction: column;
     }
-     
+
     .box img{
-        width:7.5rem;
-        height: 7.5rem;
+        width:5.3rem;
+        height: 5.3rem;
     }
 
     .box h1{
-        font-size: 12px;  
+        font-size: 10px;  
     }
 
     .box h2{
-        font-size: 15px;
+        font-size: 12px;
     }
  }
 
+ @media screen and (max-width: 360px){
+    .box img{
+        display:none;
+    }
+
     .box h1{
-        font-size: 15px;   
+        font-size: 10px;
     }
 
     .box h2{
-        font-size: 20px;
+        font-size: 12px;
     }
+
  }
